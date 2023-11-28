@@ -1,0 +1,11 @@
+.md:w-[75vw] img {
+    max-width: 100%;
+    height: auto;
+  }
+  /* custom-styles.css */
+
+@media screen and (max-width: 640px) { /* Adjust the screen width as needed */
+  .image-container {
+    padding-bottom: 0;
+  }
+}

@@ -1,0 +1,48 @@
+.catCard {
+  width: 252px;
+  height: 344px;
+  color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  .slide{
+    .carousel-prev,
+    .carousel-next{
+      top:-85px;
+    }
+  }
+  img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+  }
+
+  .desc {
+    font-weight: 300;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+  }
+
+  .title {
+    position: absolute;
+    top: 40px;
+    left: 15px;
+    font-size:24px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 768px) {
+  
+  .carousel-prev,
+  .carousel-next {
+    
+    display: none;
+  }
+
+  .catCard {
+    width: 200px;
+    height: 300px;
+  }
+}

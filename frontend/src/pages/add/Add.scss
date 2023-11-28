@@ -1,0 +1,117 @@
+
+.add {
+    display: flex;
+    justify-content: center;
+  
+    .container {
+      width: 1400px;
+      padding: 50px 0px;
+  
+      h1 {
+        width: max-content;
+        margin-bottom: 30px;
+        color: gray;
+        font-weight: 300;
+      }
+  
+      .sections {
+        display: flex;
+        justify-content: space-between;
+        gap: 100px;
+  
+        label {
+          color: gray;
+          font-size: 18px;
+        }
+  
+        .info,
+        .details {
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          justify-content: space-between;
+  
+          input,
+          select,
+          textarea {
+            padding: 20px;
+            border-radius: 5px;
+            border: 1.5px gray solid;
+            resize: none;
+            
+          }
+          input::file-selector-button {
+             border: none;
+            padding: 10px;
+            color: white;
+            font-weight: 500;
+        
+            
+              background-color: #ea9959;
+            
+            border-radius: 300px;
+           
+            cursor: pointer;
+          }
+
+          .images{
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            .imagesInputs{
+              display: flex;
+              flex-direction: column;
+              gap: 20px;
+            }
+          }
+          button{
+            border: none;
+            padding: 16px;
+            color: white;
+            font-weight: 500;
+            font-size: 16px;
+            background-color: #a6d189;
+            border-radius: 4rem;
+            
+           
+
+          }
+          .add-button{
+            padding: 0;
+            margin: 1rem;
+            color: white;
+            border-radius: 8rem;
+            height: 3rem;
+              width: 3rem;
+          }
+  
+          .create-button {
+            border: none;
+            padding: 20px;
+            color: white;
+            font-weight: 500;
+            font-size: 18px;
+            background-color: #babbf1;
+            border-end-end-radius: 50px;
+            border-end-start-radius: 15px;
+            border-start-start-radius: 50px;
+            border-start-end-radius: 15px;
+            cursor: pointer;
+          }
+          .remove-button{
+            background-color: #e78284;
+            padding:0;
+            // padding-left: 2rem;
+            // padding-right: 2rem;
+          }
+          .x-mark{
+            margin: 5px;
+            padding: 0;
+            font-size: x-large;
+          }
+        }
+      }
+    }
+  }
+  
